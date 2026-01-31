@@ -1,0 +1,15 @@
+  212  java DateClient > result-socket-socket.txt
+  213  cat result-socket.txt
+  214  echo "" | nc localhost 6013 > result-socket.txt
+  215  cat result-socket.txt
+  216  echo "Test result from DateServer" > result-socket.txt
+  217  cat result-socket.txt
+  218  tree
+  219  cd class_activity2
+  220  nano paintchild.c
+  221  tree
+  222  history
+  223  history | tail -n 15 > ~/class_activity3/activity3_commands.txt
+  224* 
+  225  history
+  226  history | tail -n 15 > ~/class_activity3/activity3_commands.txt
