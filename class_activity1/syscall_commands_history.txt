@@ -1,0 +1,50 @@
+  295  nano copyfilesyscall.c
+  296  tree
+  297  git clone https://github.com/Houysang/mutex_lock_simulation.git
+  298  cd class_activity1
+  299  tree
+  300  cd ..
+  301  git ckeckout
+  302  git checkout
+  303  git checkout class_activity1
+  304  cd ~/mutex_lock_simulation
+  305  ls -a
+  306  git status
+  307  git checkout main
+  308  git checkout class_activity1
+  309  cd ~/class_activity1
+  310  cd ~/mutex_lock_simulation
+  311  git status
+  312  mv ~/class_activity1 ~/mutex_lock_simulation/
+  313  cd ~/mutex_lock_simulation
+  314  git status
+  315  cd  ~/class_activity1
+  316  tree
+  317  cd class_activity1
+  318  ls ~/.local/share/Trash/class_activity1
+  319  mkdir class_activity1
+  320  cd class_activity1
+  321  nano copyfilesyscall.c
+  322  gcc copyfilesyscall.c -o copyfilesyscall
+  323  tree
+  324  cd ..
+  325  sudo apt install testdisk
+  326  sudo testdisk
+  327  ls
+  328  sudo photorec
+  329  cd class_activity1
+  330  tree
+  331  nano syscall1.c
+  332  gcc syscall1.c -o syscall1
+  333  tree
+  334  ./syscall1
+  335  nano syscall1.c
+  336  ./syscall1
+  337  touch result.txt copyresult.txt
+  338  ls
+  339  echo "System call copy test" > result.txt
+  340  ./copyfilesysyscall
+  341  ./copyfilesyscall
+  342  tree
+  343  cat result.txt
+  344  history | tail -n 50 > ../class_activity1/syscall_commands_history.txt
