@@ -1,0 +1,15 @@
+  116  gcc -o paintchild paintchild.c 
+  117  ls -l
+  118  ssh guov-houysang@192.168.21.152
+  119  ssh gic-guov-houysang@192.168.21.152
+  120  shh gic-guov-houysang@192.168.21.152
+  121  ssh gic-guov-houysang@192.168.21.152
+  122  tree
+  123  cd ~/class_activity2
+  124  cd result_forkchild.txt
+  125  cat result_forkchild.txt
+  126  nano forkchild.c
+  127  gcc -o forkchild forkchild.c
+  128  tree
+  129  ./forkchild > result_forkchild.txt
+  130  history | tail -n 15 > command_used_forkchild.txt

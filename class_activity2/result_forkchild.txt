@@ -1,0 +1,9 @@
+Parent Process ID: 2255
+Child Process ID: 2256
+total 32
+-rw-r--r-- 1 houysang houysang   498 Dec  1 20:39 command_used_forkchild.txt
+-rwxr-xr-x 1 houysang houysang 16400 Dec  1 20:39 forkchild
+-rw-r--r-- 1 houysang houysang   849 Dec  1 21:31 forkchild.c
+-rw-r--r-- 1 houysang houysang    47 Jan 31 11:21 result_forkchild.txt
+Parent Process ID: 2255
+Child finished.
